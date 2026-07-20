@@ -13,6 +13,6 @@ def run(name: str) -> None:
 
 
 if __name__ == "__main__":
-    run("make_ascii_svg.py")
+    run("make_portrait_panel.py")
     run("make_info_card.py")
     run("render_heatmap_svg.py")

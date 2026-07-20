@@ -5,7 +5,7 @@
 <table>
   <tr>
     <td valign="top" width="43%">
-      <img src="./assets/marcel-ascii.svg" width="430" alt="Animated ASCII developer coding at a workstation" />
+      <img src="./assets/marcel-portrait-panel.png" width="430" alt="Portrait of Marcel in a terminal-style frame" />
     </td>
     <td valign="top" width="57%">
       <img src="./assets/info-card.svg" width="570" alt="Marcel Afsar developer information card" />

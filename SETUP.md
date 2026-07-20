@@ -31,31 +31,22 @@ git push origin main
 
 Open the repository's **Settings → Actions → General → Workflow permissions**, select **Read and write permissions**, save, and run the workflow again.
 
-## Rebuild the static animations locally
+## Refresh profile artwork locally
 
-The animated ASCII portrait and neofetch card are already generated. To regenerate them after editing their source data:
+The profile uses a regular portrait in a terminal-style PNG panel. To regenerate the panel, information card, and heatmap:
 
 ```powershell
-python scripts/make_ascii_svg.py
+python scripts/make_portrait_panel.py
 python scripts/make_info_card.py
 python scripts/render_heatmap_svg.py
 ```
 
-Set `STATIC=1` before generating an SVG when you need a non-animated preview frame.
+## Replacing your portrait
+
+Replace `assets/marcel-portrait.png` with a clean, head-and-shoulders photo. PNG works best, but you may use a JPEG if you also update the source path in `scripts/make_portrait_panel.py`. Then rebuild the framed panel:
 
 ```powershell
-$env:STATIC="1"
-python scripts/make_ascii_svg.py
-python scripts/make_info_card.py
-Remove-Item Env:STATIC
+python scripts/make_portrait_panel.py
 ```
 
-## Customizing the ASCII scene
-
-Edit `data/ascii_scene.txt`, then run:
-
-```powershell
-python scripts/make_ascii_svg.py
-```
-
-Each text row is revealed left-to-right and staggered from top to bottom. The animation runs once and freezes.
+The script uses a centred crop and never stretches the source image. The generated `assets/marcel-portrait-panel.png` is the GitHub-safe terminal frame used by the README.
