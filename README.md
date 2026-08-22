@@ -2,16 +2,6 @@
 
 ### <code>marcel@github ~ $ whoami</code>
 
-<table>
-  <tr>
-    <td valign="top" width="43%">
-      <img src="./assets/marcel-portrait-panel.png" width="430" alt="Portrait of Marcel in a terminal-style frame" />
-    </td>
-    <td valign="top" width="57%">
-      <img src="./assets/info-card.svg" width="570" alt="Marcel Afsar developer information card" />
-    </td>
-  </tr>
-</table>
 
 </div>
 
