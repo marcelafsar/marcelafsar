@@ -1,43 +1,8 @@
 {
   "username": "marcelafsar",
   "source": "https://github.com/users/marcelafsar/contributions",
-  "fetched_at": "2026-10-10T12:36:16.397572+00:00",
+  "fetched_at": "2026-10-11T12:55:03.331558+00:00",
   "days": [
-    {
-      "date": "2025-10-05",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-06",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-07",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-08",
-      "count": 1,
-      "level": 1
-    },
-    {
-      "date": "2025-10-09",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-10",
-      "count": 0,
-      "level": 0
-    },
-    {
-      "date": "2025-10-11",
-      "count": 0,
-      "level": 0
-    },
     {
       "date": "2025-10-12",
       "count": 0,
@@ -1857,10 +1822,15 @@
       "date": "2026-10-10",
       "count": 0,
       "level": 0
+    },
+    {
+      "date": "2026-10-11",
+      "count": 0,
+      "level": 0
     }
   ],
   "stats": {
-    "total": 94,
+    "total": 93,
     "current_streak": 0,
     "longest_streak": 4,
     "best_day": {
@@ -1869,7 +1839,7 @@
       "level": 4
     },
     "monthly_totals": {
-      "2025-10": 1,
+      "2025-10": 0,
       "2025-11": 3,
       "2025-12": 0,
       "2026-01": 0,
